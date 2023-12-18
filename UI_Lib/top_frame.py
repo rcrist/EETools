@@ -1,5 +1,8 @@
 import customtkinter as ctk
-from CTkColorPicker import *
+from UI_Lib.shape_appearance_frame import ShapeAppearanceFrame
+from UI_Lib.file_menu_frame import FileMenuFrame
+from UI_Lib.settings_frame import SettingsFrame
+from UI_Lib.help_frame import HelpFrame
 
 
 class TopFrame(ctk.CTkFrame):
@@ -8,63 +11,15 @@ class TopFrame(ctk.CTkFrame):
         self.parent = parent
         self.canvas = canvas
 
-        # Add top frame widgets here
-        self.fill_color_button = ctk.CTkButton(self,
-                                   text="Fill Color",
-                                   command=self.set_fill_color)
-        self.fill_color_button.pack(side=ctk.LEFT, padx=3, pady=3)
+        # Add Top Frame widget here
+        file_frame = FileMenuFrame(self.parent, self, self.canvas)
+        file_frame.pack(side=ctk.LEFT, padx=5, pady=5)
 
-        self.border_color_button = ctk.CTkButton(self,
-                                   text="Border Color",
-                                   command=self.set_border_color)
-        self.border_color_button.pack(side=ctk.LEFT, padx=3, pady=3)
+        settings_frame = SettingsFrame(self.parent, self, self.canvas)
+        settings_frame.pack(side=ctk.LEFT, padx=5, pady=5)
 
-        border_width_optionmenu = ctk.CTkOptionMenu(self,
-               values=["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
-               command=self.set_border_width)
-        border_width_optionmenu.pack(side=ctk.LEFT, padx=3, pady=3)
-        border_width_optionmenu.set("3")
+        shape_frame = ShapeAppearanceFrame(self, self.canvas)
+        shape_frame.pack(side=ctk.LEFT, padx=5, pady=5)
 
-        self.switch_var = ctk.StringVar(value="on")
-        switch = ctk.CTkSwitch(self, text="Grid Visible",
-                               command=self.grid_visibility,
-                               variable=self.switch_var,
-                               onvalue="on", offvalue="off")
-        switch.pack(side=ctk.LEFT, padx=3, pady=3)
-
-        grid_size_optionmenu = ctk.CTkOptionMenu(self,
-               values=["5", "10", "15", "20", "25", "40", "50",
-                       "60", "70", "80", "90", "100"],
-               command=self.set_grid_size)
-        grid_size_optionmenu.pack(side=ctk.LEFT, padx=3, pady=3)
-        grid_size_optionmenu.set("10")
-
-    def set_fill_color(self):
-        if self.canvas.mouse.selected_obj:
-            pick_color = AskColor()  # open the color picker
-            color = pick_color.get()  # get the color string
-            self.canvas.mouse.selected_obj.fill_color = color
-            self.canvas.draw_shapes()
-
-    def set_border_color(self):
-        if self.canvas.mouse.selected_obj:
-            pick_color = AskColor()  # open the color picker
-            color = pick_color.get()  # get the color string
-            self.canvas.mouse.selected_obj.border_color = color
-            self.canvas.draw_shapes()
-
-    def set_border_width(self, choice):
-        if self.canvas.mouse.selected_obj:
-            self.canvas.mouse.selected_obj.border_width = choice
-            self.canvas.draw_shapes()
-
-    def grid_visibility(self):
-        if self.switch_var.get() == "on":
-            self.canvas.grid.grid_visible = True
-        elif self.switch_var.get() == "off":
-            self.canvas.grid.grid_visible = False
-        self.canvas.draw_shapes()
-
-    def set_grid_size(self, choice):
-        self.canvas.grid.grid_size = int(choice)
-        self.canvas.draw_shapes()
+        help_frame = HelpFrame(self.parent, self, self.canvas)
+        help_frame.pack(side=ctk.RIGHT, padx=5, pady=5)

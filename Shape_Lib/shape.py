@@ -5,13 +5,18 @@ class Shape:
         self.y1 = y1
         self.x2 = x2
         self.y2 = y2
-        self.points = [self.x1, self.y1, self.x2, self.y2]
-        self.is_selected = False
 
+        self.fill_color = "cyan"
+        self.border_color = "black"
+        self.border_width = 3
+
+        self.id = None
+        self.is_selected = False
+        self.is_drawing = False
         self.sel_list = []
         self.conn_list = []
         self.line_list = []
-        self.id = None
+        self.selector = None
 
     def check_selector_hit(self, x, y):
         for sel in self.sel_list:
@@ -21,7 +26,7 @@ class Shape:
 
     def check_connector_hit(self, x, y):
         for conn in self.conn_list:
-            if conn.conn_hit_test(x, y):
+            if conn.connector_hit_test(x, y):
                 return conn
         return None
 
@@ -36,3 +41,4 @@ class Shape:
                     elif connection.line_end == "end":
                         connection.line_obj.x2 = connector.x
                         connection.line_obj.y2 = connector.y
+
