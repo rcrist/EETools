@@ -1,0 +1,798 @@
+[
+    {
+        "type": "ic74161",
+        "x1": 125,
+        "y1": 330,
+        "angle": 0,
+        "wire_list": [
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 350.0,
+                    "x2": 415.0,
+                    "y2": 190.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 350.0,
+                    "x2": 415.0,
+                    "y2": 390.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 360.0,
+                    "x2": 415.0,
+                    "y2": 205.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 360.0,
+                    "x2": 415.0,
+                    "y2": 405.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 370.0,
+                    "x2": 415.0,
+                    "y2": 220.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 370.0,
+                    "x2": 415.0,
+                    "y2": 420.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 380.0,
+                    "x2": 415.0,
+                    "y2": 235.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 380.0,
+                    "x2": 415.0,
+                    "y2": 435.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 220.0,
+                    "y1": 215.0,
+                    "x2": 175.0,
+                    "y2": 280.0
+                },
+                "wire_end": "end"
+            }
+        ]
+    },
+    {
+        "type": "ic28C16",
+        "x1": 465,
+        "y1": 275,
+        "angle": 0,
+        "wire_list": [
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 355.0,
+                    "y1": 340.0,
+                    "x2": 415.0,
+                    "y2": 250.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 205.0,
+                    "x2": 638.0,
+                    "y2": 205.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 220.0,
+                    "x2": 638.0,
+                    "y2": 220.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 235.0,
+                    "x2": 638.0,
+                    "y2": 235.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 250.0,
+                    "x2": 638.0,
+                    "y2": 250.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 265.0,
+                    "x2": 638.0,
+                    "y2": 265.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 280.0,
+                    "x2": 638.0,
+                    "y2": 280.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 295.0,
+                    "x2": 638.0,
+                    "y2": 295.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 350.0,
+                    "x2": 415.0,
+                    "y2": 190.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 360.0,
+                    "x2": 415.0,
+                    "y2": 205.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 370.0,
+                    "x2": 415.0,
+                    "y2": 220.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 380.0,
+                    "x2": 415.0,
+                    "y2": 235.0
+                },
+                "wire_end": "end"
+            }
+        ]
+    },
+    {
+        "type": "ic28C16",
+        "x1": 465,
+        "y1": 475,
+        "angle": 0,
+        "wire_list": [
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 360.0,
+                    "y1": 545.0,
+                    "x2": 415.0,
+                    "y2": 450.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 405.0,
+                    "x2": 638.0,
+                    "y2": 405.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 420.0,
+                    "x2": 638.0,
+                    "y2": 420.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 435.0,
+                    "x2": 638.0,
+                    "y2": 435.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 450.0,
+                    "x2": 638.0,
+                    "y2": 450.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 465.0,
+                    "x2": 638.0,
+                    "y2": 465.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 480.0,
+                    "x2": 638.0,
+                    "y2": 480.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 495.0,
+                    "x2": 638.0,
+                    "y2": 495.0
+                },
+                "wire_end": "begin"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 350.0,
+                    "x2": 415.0,
+                    "y2": 390.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 360.0,
+                    "x2": 415.0,
+                    "y2": 405.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 370.0,
+                    "x2": 415.0,
+                    "y2": 420.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 175.0,
+                    "y1": 380.0,
+                    "x2": 415.0,
+                    "y2": 435.0
+                },
+                "wire_end": "end"
+            }
+        ]
+    },
+    {
+        "type": "7_segment",
+        "x1": 680,
+        "y1": 250,
+        "angle": 0,
+        "wire_list": [
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 205.0,
+                    "x2": 638.0,
+                    "y2": 205.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 220.0,
+                    "x2": 638.0,
+                    "y2": 220.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 235.0,
+                    "x2": 638.0,
+                    "y2": 235.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 250.0,
+                    "x2": 638.0,
+                    "y2": 250.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 265.0,
+                    "x2": 638.0,
+                    "y2": 265.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 280.0,
+                    "x2": 638.0,
+                    "y2": 280.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 295.0,
+                    "x2": 638.0,
+                    "y2": 295.0
+                },
+                "wire_end": "end"
+            }
+        ]
+    },
+    {
+        "type": "7_segment",
+        "x1": 680,
+        "y1": 450,
+        "angle": 0,
+        "wire_list": [
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 405.0,
+                    "x2": 638.0,
+                    "y2": 405.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 420.0,
+                    "x2": 638.0,
+                    "y2": 420.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 435.0,
+                    "x2": 638.0,
+                    "y2": 435.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 450.0,
+                    "x2": 638.0,
+                    "y2": 450.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 465.0,
+                    "x2": 638.0,
+                    "y2": 465.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 480.0,
+                    "x2": 638.0,
+                    "y2": 480.0
+                },
+                "wire_end": "end"
+            },
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 515.0,
+                    "y1": 495.0,
+                    "x2": 638.0,
+                    "y2": 495.0
+                },
+                "wire_end": "end"
+            }
+        ]
+    },
+    {
+        "type": "switch",
+        "x1": 335,
+        "y1": 340,
+        "angle": 0,
+        "wire_list": [
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 355.0,
+                    "y1": 340.0,
+                    "x2": 415.0,
+                    "y2": 250.0
+                },
+                "wire_end": "begin"
+            }
+        ]
+    },
+    {
+        "type": "switch",
+        "x1": 340,
+        "y1": 545,
+        "angle": 0,
+        "wire_list": [
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 360.0,
+                    "y1": 545.0,
+                    "x2": 415.0,
+                    "y2": 450.0
+                },
+                "wire_end": "begin"
+            }
+        ]
+    },
+    {
+        "type": "clock",
+        "x1": 240,
+        "y1": 215,
+        "angle": 180,
+        "wire_list": [
+            {
+                "type": "connection",
+                "wire_obj": {
+                    "type": "segment_wire",
+                    "x1": 220.0,
+                    "y1": 215.0,
+                    "x2": 175.0,
+                    "y2": 280.0
+                },
+                "wire_end": "begin"
+            }
+        ]
+    },
+    {
+        "type": "segment_wire",
+        "x1": 355.0,
+        "y1": 340.0,
+        "x2": 415.0,
+        "y2": 250.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 360.0,
+        "y1": 545.0,
+        "x2": 415.0,
+        "y2": 450.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 205.0,
+        "x2": 638.0,
+        "y2": 205.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 220.0,
+        "x2": 638.0,
+        "y2": 220.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 235.0,
+        "x2": 638.0,
+        "y2": 235.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 250.0,
+        "x2": 638.0,
+        "y2": 250.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 265.0,
+        "x2": 638.0,
+        "y2": 265.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 280.0,
+        "x2": 638.0,
+        "y2": 280.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 295.0,
+        "x2": 638.0,
+        "y2": 295.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 405.0,
+        "x2": 638.0,
+        "y2": 405.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 420.0,
+        "x2": 638.0,
+        "y2": 420.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 435.0,
+        "x2": 638.0,
+        "y2": 435.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 450.0,
+        "x2": 638.0,
+        "y2": 450.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 465.0,
+        "x2": 638.0,
+        "y2": 465.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 480.0,
+        "x2": 638.0,
+        "y2": 480.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 515.0,
+        "y1": 495.0,
+        "x2": 638.0,
+        "y2": 495.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 90,
+        "y1": 155,
+        "x2": 90,
+        "y2": 155
+    },
+    {
+        "type": "segment_wire",
+        "x1": 175.0,
+        "y1": 350.0,
+        "x2": 415.0,
+        "y2": 190.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 175.0,
+        "y1": 350.0,
+        "x2": 415.0,
+        "y2": 390.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 175.0,
+        "y1": 360.0,
+        "x2": 415.0,
+        "y2": 205.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 175.0,
+        "y1": 360.0,
+        "x2": 415.0,
+        "y2": 405.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 175.0,
+        "y1": 370.0,
+        "x2": 415.0,
+        "y2": 220.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 175.0,
+        "y1": 370.0,
+        "x2": 415.0,
+        "y2": 420.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 175.0,
+        "y1": 380.0,
+        "x2": 415.0,
+        "y2": 235.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 175.0,
+        "y1": 380.0,
+        "x2": 415.0,
+        "y2": 435.0
+    },
+    {
+        "type": "segment_wire",
+        "x1": 220.0,
+        "y1": 215.0,
+        "x2": 175.0,
+        "y2": 280.0
+    }
+]
