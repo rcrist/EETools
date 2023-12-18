@@ -1,0 +1,35 @@
+{
+    "type": "circuit",
+    "circuit": [
+        {
+            "type": "resistor",
+            "x": 100,
+            "y": 100,
+            "resistance": 75,
+            "wire_list": []
+        },
+        {
+            "type": "resistor",
+            "x": 200,
+            "y": 200,
+            "resistance": 50,
+            "wire_list": []
+        },
+        {
+            "type": "wire",
+            "x1": 100,
+            "y1": 100,
+            "x2": 200,
+            "y2": 200
+        }
+    ],
+    "wires": [
+        {
+            "type": "wire",
+            "x1": 100,
+            "y1": 100,
+            "x2": 200,
+            "y2": 200
+        }
+    ]
+}
