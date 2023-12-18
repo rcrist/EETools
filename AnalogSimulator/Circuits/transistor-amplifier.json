@@ -1,0 +1,687 @@
+[
+    {
+        "comp_list": [
+            {
+                "type": "dc_source",
+                "text": "Vpwr",
+                "x1": 210,
+                "y1": 145,
+                "angle": 0,
+                "value": "15",
+                "units": "u_V",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire1",
+                        "wire_end": "begin"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire2",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "resistor",
+                "text": "R1",
+                "x1": 400,
+                "y1": 150,
+                "angle": 90,
+                "value": "100",
+                "units": "u_k\u03a9",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire7",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire8",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "npn_transistor",
+                "text": "Q1",
+                "x1": 530,
+                "y1": 320,
+                "angle": 0,
+                "bf": 80,
+                "cjc": 5,
+                "cjc_units": "u_pF",
+                "rb": 100,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "base",
+                        "wire_name": "wire10",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "emitter",
+                        "wire_name": "wire14",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "collector",
+                        "wire_name": "wire18",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "resistor",
+                "text": "RC",
+                "x1": 550,
+                "y1": 185,
+                "angle": 90,
+                "value": "10",
+                "units": "u_k\u03a9",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire12",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire13",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "node",
+                "text": "5",
+                "x1": 400,
+                "y1": 70,
+                "angle": 0,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire1",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire7",
+                        "wire_end": "begin"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire12",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "node",
+                "text": "4",
+                "x1": 550,
+                "y1": 250,
+                "angle": 0,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire13",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire14",
+                        "wire_end": "begin"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire15",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "node",
+                "text": "3",
+                "x1": 550,
+                "y1": 395,
+                "angle": 0,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire18",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire19",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "node",
+                "text": "2",
+                "x1": 400,
+                "y1": 320,
+                "angle": 0,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire8",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire9",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire10",
+                        "wire_end": "begin"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire11",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "capacitor",
+                "text": "C1",
+                "x1": 305,
+                "y1": 320,
+                "angle": 0,
+                "value": "10",
+                "units": "u_uF",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire3",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire9",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "ac_source",
+                "text": "Vin",
+                "x1": 210,
+                "y1": 435,
+                "angle": 0,
+                "value": "0.5",
+                "units": "u_V",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire4",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire5",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "node",
+                "text": "in",
+                "x1": 210,
+                "y1": 320,
+                "angle": 0,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire3",
+                        "wire_end": "begin"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire4",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "ground",
+                "text": null,
+                "x1": 210,
+                "y1": 225,
+                "angle": 0,
+                "value": 0,
+                "units": null,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire2",
+                        "wire_end": "end"
+                    }
+                ]
+            },
+            {
+                "type": "ground",
+                "text": null,
+                "x1": 210,
+                "y1": 590,
+                "angle": 0,
+                "value": 0,
+                "units": null,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire6",
+                        "wire_end": "end"
+                    }
+                ]
+            },
+            {
+                "type": "node",
+                "text": "0",
+                "x1": 210,
+                "y1": 530,
+                "angle": 0,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire5",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire6",
+                        "wire_end": "begin"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire20",
+                        "wire_end": "begin"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire21",
+                        "wire_end": "begin"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire22",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "resistor",
+                "text": "RE",
+                "x1": 550,
+                "y1": 455,
+                "angle": 90,
+                "value": "2",
+                "units": "u_k\u03a9",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire19",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire21",
+                        "wire_end": "end"
+                    }
+                ]
+            },
+            {
+                "type": "resistor",
+                "text": "R2",
+                "x1": 400,
+                "y1": 410,
+                "angle": 90,
+                "value": "10",
+                "units": "u_k\u03a9",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire11",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire22",
+                        "wire_end": "end"
+                    }
+                ]
+            },
+            {
+                "type": "capacitor",
+                "text": "C2",
+                "x1": 625,
+                "y1": 250,
+                "angle": 0,
+                "value": "10",
+                "units": "u_uF",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire15",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire16",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "node",
+                "text": "out",
+                "x1": 710,
+                "y1": 250,
+                "angle": 0,
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire16",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "conn",
+                        "wire_name": "wire17",
+                        "wire_end": "begin"
+                    }
+                ]
+            },
+            {
+                "type": "resistor",
+                "text": "RL",
+                "x1": 710,
+                "y1": 395,
+                "angle": 90,
+                "value": "1",
+                "units": "u_M\u03a9",
+                "wire_list": [
+                    {
+                        "type": "connection",
+                        "comp_conn": "in1",
+                        "wire_name": "wire17",
+                        "wire_end": "end"
+                    },
+                    {
+                        "type": "connection",
+                        "comp_conn": "out",
+                        "wire_name": "wire20",
+                        "wire_end": "end"
+                    }
+                ]
+            },
+            {
+                "type": "elbow",
+                "wire_dir": "V",
+                "node_num": "5",
+                "x1": 210.0,
+                "y1": 125.0,
+                "x2": 400.0,
+                "y2": 70.0,
+                "name": "wire1"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "0",
+                "x1": 210.0,
+                "y1": 165.0,
+                "x2": 210.0,
+                "y2": 200.0,
+                "name": "wire2"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "in",
+                "x1": 210.0,
+                "y1": 320.0,
+                "x2": 275.0,
+                "y2": 320.0,
+                "name": "wire3"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "in",
+                "x1": 210.0,
+                "y1": 320.0,
+                "x2": 210.0,
+                "y2": 415.0,
+                "name": "wire4"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "0",
+                "x1": 210.0,
+                "y1": 455.0,
+                "x2": 210.0,
+                "y2": 530.0,
+                "name": "wire5"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "0",
+                "x1": 210.0,
+                "y1": 530.0,
+                "x2": 210.0,
+                "y2": 565.0,
+                "name": "wire6"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "5",
+                "x1": 400.0,
+                "y1": 70.0,
+                "x2": 400.0,
+                "y2": 120.0,
+                "name": "wire7"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "2",
+                "x1": 400.0,
+                "y1": 180.0,
+                "x2": 400.0,
+                "y2": 320.0,
+                "name": "wire8"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "2",
+                "x1": 335.0,
+                "y1": 320.0,
+                "x2": 400.0,
+                "y2": 320.0,
+                "name": "wire9"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "2",
+                "x1": 400.0,
+                "y1": 320.0,
+                "x2": 500.0,
+                "y2": 320.5,
+                "name": "wire10"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "2",
+                "x1": 400.0,
+                "y1": 320.0,
+                "x2": 400.0,
+                "y2": 380.0,
+                "name": "wire11"
+            },
+            {
+                "type": "elbow",
+                "wire_dir": "H",
+                "node_num": "5",
+                "x1": 400.0,
+                "y1": 70.0,
+                "x2": 550.0,
+                "y2": 155.0,
+                "name": "wire12"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "4",
+                "x1": 550.0,
+                "y1": 215.0,
+                "x2": 550.0,
+                "y2": 250.0,
+                "name": "wire13"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "4",
+                "x1": 550.0,
+                "y1": 250.0,
+                "x2": 550.0,
+                "y2": 285.0,
+                "name": "wire14"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "4",
+                "x1": 550.0,
+                "y1": 250.0,
+                "x2": 595.0,
+                "y2": 250.0,
+                "name": "wire15"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "out",
+                "x1": 655.0,
+                "y1": 250.0,
+                "x2": 710.0,
+                "y2": 250.0,
+                "name": "wire16"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "out",
+                "x1": 710.0,
+                "y1": 250.0,
+                "x2": 710.0,
+                "y2": 365.0,
+                "name": "wire17"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "3",
+                "x1": 550.0,
+                "y1": 356.0,
+                "x2": 550.0,
+                "y2": 395.0,
+                "name": "wire18"
+            },
+            {
+                "type": "straight",
+                "wire_dir": "H",
+                "node_num": "3",
+                "x1": 550.0,
+                "y1": 395.0,
+                "x2": 550.0,
+                "y2": 425.0,
+                "name": "wire19"
+            },
+            {
+                "type": "elbow",
+                "wire_dir": "H",
+                "node_num": "0",
+                "x1": 210.0,
+                "y1": 530.0,
+                "x2": 710.0,
+                "y2": 425.0,
+                "name": "wire20"
+            },
+            {
+                "type": "elbow",
+                "wire_dir": "H",
+                "node_num": "0",
+                "x1": 210.0,
+                "y1": 530.0,
+                "x2": 550.0,
+                "y2": 485.0,
+                "name": "wire21"
+            },
+            {
+                "type": "elbow",
+                "wire_dir": "H",
+                "node_num": "0",
+                "x1": 210.0,
+                "y1": 530.0,
+                "x2": 400.0,
+                "y2": 440.0,
+                "name": "wire22"
+            }
+        ]
+    }
+]
